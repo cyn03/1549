@@ -1,0 +1,38 @@
+//
+//  HeartPro.pch
+//  HeartPro
+//
+//  Created by qianfeng on 15/11/7.
+//  Copyright (c) 2015年 xiaoxiao. All rights reserved.
+//
+
+#ifndef HeartPro_HeartPro_pch
+#define HeartPro_HeartPro_pch
+
+/** 颜色判断 */
+#define UIColorRGBA(_r, _g, _b, _a) [UIColor colorWithRed:_r/255.f green:_g/255.f blue:_b/255.f alpha:_a]
+
+#define UIColorRGB(_r, _g, _b) UIColorRGBA(_r, _g, _b, 1)
+
+#define SWIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define ios7_or_later [UIDevice currentDevice].systemVersion.floatValue >= 7.0
+
+#define ios8_or_later [UIDevice currentDevice].systemVersion.floatValue >= 8.0
+
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+
+#import "MYHeaderView.h"
+
+#import "HeartProject.h"
+
+#import "MYDataBaseManager.h"
+
+#import "UMSocial.h"
+
+
+#endif
