@@ -14,6 +14,7 @@
 {
     UITableView *_TableView;
     UIImageView *imageView;
+    UIView *v;
 }
 @end
 
